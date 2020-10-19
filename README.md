@@ -17,5 +17,5 @@ Image tagged with `:contrib` contains docker image built with [contrib modules](
 
 ## Usage
 
-    docker run -it atup/docker-opencv python
+    docker run -it atup/opencv python
     >>> import cv2
