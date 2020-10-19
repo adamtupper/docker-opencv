@@ -6,14 +6,14 @@ Python version (`latest`): 3.7
 
 OpenCV version (`latest`): 4.1.2
 
-Image tagged with `:contrib` contains docker image built with [contrib modules](https://github.com/opencv/opencv_contrib/)
+## Available Docker Tags
 
-List of available docker tags:
+Image tagged with `:contrib` contains docker image built with [contrib modules](https://github.com/opencv/opencv_contrib/).
 
 - `4.1.2` (`master` branch)
 - `contrib-4.1.2` (`opencv_contrib` branch)
 
-## Usage:
+## Usage
 
     docker run -it atup/docker-opencv python
     >>> import cv2
