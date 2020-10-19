@@ -11,5 +11,5 @@ Image tagged with `:contrib` contains docker image built with [contrib modules](
 
 List of available docker tags:
 
-- `opencv-4.1.2` (`master` branch)
-- `contrib-opencv-4.1.2` (`opencv_contrib` branch)
+- `4.1.2` (`master` branch)
+- `contrib-4.1.2` (`opencv_contrib` branch)
