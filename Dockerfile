@@ -1,5 +1,5 @@
 FROM python:3.7
-MAINTAINER Josip Janzic <josip@jjanzic.com>
+MAINTAINER Adam Tupper <adam.tupper@outlook.com>
 
 RUN apt-get update \
     && apt-get install -y \
@@ -23,7 +23,7 @@ RUN apt-get update \
 RUN pip install numpy
 
 WORKDIR /
-ENV OPENCV_VERSION="4.1.1"
+ENV OPENCV_VERSION="4.1.2"
 RUN wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \
 && unzip ${OPENCV_VERSION}.zip \
 && mkdir /opencv-${OPENCV_VERSION}/cmake_binary \
